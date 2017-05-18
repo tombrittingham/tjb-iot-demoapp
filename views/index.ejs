@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Tom's IoT App</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Start your project here-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <br><br>
+                <form action="/" id="device-search-form" class="text-center" method="post">
+                    <h2 class="display-4"><i class="fa fa-code"></i> Tom's IoT Demo App</h2>
+                    <p class="lead">This application will return IoT data for hardware using the DweetIO device client. Search by device name to get started.</p>
+                    <div class="form-group">
+                        <input type="text" name="deviceName" class="form-control text-center">
+                        <button id="searchButton" class="btn btn-primary">
+                            <i class="fa fa-search" aria-hidden="true"></i>Search 
+                        </button>
+                    </div>
+                </form>
+                <br>
+                <div id="deviceContent">
+                    <!--Device content goes here-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="/js/tether.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="/js/mdb.min.js"></script>
+    <!--DweetIO JS -->
+    <script type="text/javascript" src="/js/dweet.io.js"></script>
+    <!--Custom JS-->
+    <script type="text/javascript" src="/js/main.js"></script>
+</body>
+
+</html>
+

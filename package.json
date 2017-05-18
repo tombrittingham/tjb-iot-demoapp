@@ -1,0 +1,22 @@
+{
+  "name": "tjb-iot-demo",
+  "version": "1.0.0",
+  "description": "Tom's IoT Demo App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.10.3"
+  },
+  "author": "Tom Brittingham",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2"
+  }
+}

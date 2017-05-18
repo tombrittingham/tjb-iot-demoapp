@@ -1,0 +1,22 @@
+/* YOUR CUSTOM STYLES */
+body {
+    background: radial-gradient(circle, #ffa84c 0%, #ff7b0d 100%);
+    padding-bottom: 70px;
+}
+
+input.form-control {
+    font-size: 2rem; 
+}
+
+#device-search-form {
+    color: #fff;
+}
+
+#deviceTimestamp {
+    color: #546e7a; 
+}
+
+.device-data-json {
+    line-height: 1.8em;
+    color: #546e7a
+}
