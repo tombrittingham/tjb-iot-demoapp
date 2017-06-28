@@ -13,6 +13,10 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="/css/mdb.min.css" rel="stylesheet">
+    <!--Styles for Leaflet JS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
+    <!--JS lib fgor Leaflet JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
     <!-- Your custom styles (optional) -->
     <link href="/css/style.css" rel="stylesheet">
 </head>
@@ -39,6 +43,11 @@
                     <!--Device content goes here-->
 
                 </div>
+                <br>
+                <a href="#" id="showMapButton" class="btn btn-secondary hide-map-button"><i class="fa fa-map" aria-hidden="true"></i> &nbsp Show Map</a>
+                <div id="mapContent" class="hide-map-content">
+                    <!--Map content goes here-->
+                </div>
             </div>
         </div>
     </div>
@@ -55,6 +64,8 @@
     <script type="text/javascript" src="/js/mdb.min.js"></script>
     <!--DweetIO JS -->
     <script type="text/javascript" src="/js/dweet.io.js"></script>
+    <!--MapQuest JS Lib-->
+    <script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key=RA6FzxdM8HleLbCZztDMsdbCi1q2gd1D"></script>
     <!--Custom JS-->
     <script type="text/javascript" src="/js/main.js"></script>
 </body>

@@ -20,3 +20,15 @@ input.form-control {
     line-height: 1.8em;
     color: #546e7a
 }
+
+#map {
+    height: 500px; 
+}
+
+.hide-map-content {
+    display: none; 
+}
+
+.hide-map-button {
+    display: none;
+}
